@@ -1,0 +1,53 @@
+.BookList .SearchBtn {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #343a40;
+  padding: 8px 16px;
+  display: inline-block;
+  margin: 8px 8px;
+  border-radius: 4px;
+}
+
+.BookList .SearchArea.hide {
+  display: none;
+}
+
+.BookList .SearchArea.show {
+  display: block;
+}
+
+.BookList .SearchArea form {
+  text-align: center;
+  margin: 16px;
+}
+
+.BookList .SearchArea form input {
+  padding: 4px 4px;
+  border-radius: 0px;
+}
+
+.BookList .SearchArea form button {
+  border: none;
+  border-radius: 4px;
+  padding: 6px 10px;
+  margin-left: 2px;
+  color: #ffffff;
+  background-color: #343a40;
+}
+.BookList table {
+  margin: auto;
+  width: 700px;
+  border-collapse: collapse;
+}
+
+.BookList table thead tr th {
+  color: #ffffff;
+  background-color: #343a40;
+  padding: 8px 0px;
+}
+
+.BookList table tbody tr td {
+  text-align: center;
+  padding: 8px 0px;
+  border-top: 1px solid #dee2e6;
+}
